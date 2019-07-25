@@ -1,0 +1,11 @@
+body {
+  text-align: center;
+  background-image: url("../images/background.jpeg");
+}
+.rating {
+  font-size: larger;
+}
+h2 {
+  color: red;
+  background: black;
+}

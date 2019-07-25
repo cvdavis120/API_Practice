@@ -11,6 +11,7 @@ $("document").ready(function() {
       url: queryURL,
       method: "GET"
     }).then(function(response) {
+      $("h2").removeAttr("hidden");
       var results = response.data;
       console.log(response.data);
       $("#gifs-appear-here").text("");
