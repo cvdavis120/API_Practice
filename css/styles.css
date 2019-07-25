@@ -9,3 +9,10 @@ h2 {
   color: red;
   background: black;
 }
+button {
+  border-style: dashed;
+  border-color: gold;
+  border-width: 3px;
+  background-color: maroon;
+  color: white;
+}
